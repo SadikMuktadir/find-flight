@@ -2,23 +2,23 @@ import { FaBed, FaPlaneDeparture } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar relative">
         <div className="navbar-start">
           <div className="flex">
             <div className="flex items-center mr-[30px]">
-              <div className="mr-2">
+              <div className="mr-2 text-white">
                 <FaPlaneDeparture />
               </div>
               <div>
-                <p className="font-semibold">Find Flight</p>
+                <p className="font-semibold text-white">Find Flight</p>
               </div>
             </div>
             <div className="flex items-center">
-              <div className="mr-2">
+              <div className="mr-2 text-white">
               <FaBed />
               </div>
               <div>
-                <p className="font-semibold">Find Stays</p>
+                <p className="font-semibold text-white">Find Stays</p>
               </div>
             </div>
           </div>
@@ -29,11 +29,11 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-end flex">
-          <div className="mr-2 px-6 py-[10px] bg-white">
-            <button>Login</button>
+          <div className="mr-2 px-6 py-[10px] text-black hover:text-white bg-white hover:bg-inherit">
+            <button className="">Login</button>
           </div>
-          <div className="px-6 py-[10px] bg-white">
-            <button>Register</button>
+          <div className="px-6 py-[10px] text-black hover:text-white bg-white hover:bg-inherit">
+            <button className="">Register</button>
           </div>
         </div>
       </div>
