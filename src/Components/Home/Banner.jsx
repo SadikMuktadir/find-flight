@@ -2,7 +2,7 @@ const Banner = () => {
   return (
     <div>
       <div
-        className="hero min-h-screen mt-[-64px] mb-[80px]"
+        className="hero min-h-screen mt-[-64px] mb-[100px]"
         style={{
           backgroundImage:
             "url(https://i.ibb.co/xz3DppL/simon-spring-s-PWA29-VTg-Lk-unsplash.jpg)",
